@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes moveRight {
+  5% { transform: translateX(0); }
+  30% { transform: translateX(100px); }
+}
+
+.animate {
+  background-color: blue;
+  animation: moveRight 2s ease-in-out infinite;
+}
+
+.threadsText{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-left: 25px;
+}

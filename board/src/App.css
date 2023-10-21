@@ -1,0 +1,14 @@
+.App {
+    width: 200vh;
+    height: 99vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; /* Change flex-direction to "column" */
+    align-items: center;
+    
+}
+
+#ToolBar{
+    display: flex;
+    justify-content:space-around;
+}

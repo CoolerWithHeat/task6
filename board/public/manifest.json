@@ -1,0 +1,8 @@
+{
+  "short_name": "Drawing App",
+  "name": "Drawing App tutorial code",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
