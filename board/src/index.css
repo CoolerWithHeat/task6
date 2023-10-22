@@ -19,3 +19,17 @@ body {
   color: white;
   margin-left: 25px;
 }
+
+#AddSignWindow{
+
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#AddSign{
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}

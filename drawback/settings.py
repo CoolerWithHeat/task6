@@ -7,7 +7,7 @@ SECRET_KEY = 'django-insecure-6od(+w&!wesn=0p-^pa6r_otxb!p#h60*)l=jkfwkmx6mzw9c4
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-16-171-165-77.eu-north-1.compute.amazonaws.com']
 
 INSTALLED_APPS = [
     "daphne",
