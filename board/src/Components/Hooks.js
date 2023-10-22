@@ -60,7 +60,8 @@ export function useOnDraw(onDraw) {
 
     useEffect(()=>{
 
-        const socket = new ReconnectingWebSocket('ws://127.0.0.1:8000/draw/'+ThreadName+'/')
+        const socket = new ReconnectingWebSocket(getCurrentHost(false) + 'draw/'+ThreadName+'/')
+        
         socket.onmessage = (flow)=>{
             const pattern = JSON.parse(JSON.parse(flow.data).pattern)
             const point = pattern[0];
